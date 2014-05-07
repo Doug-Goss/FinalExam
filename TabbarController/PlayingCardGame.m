@@ -15,6 +15,7 @@
 
 @implementation PlayingCardGame
 
+
 playingCard *gamecard;
 playingCard *prevcard;
 playingCard *prevcard2;

@@ -14,7 +14,7 @@
 
 @interface PlayingCardGame : NSObject{
 
-@protected NSInteger score;
+//@protected NSInteger score;
 
   
    

@@ -10,12 +10,20 @@
 
 @interface SpirographView : UIView
 {
-    CGFloat l;
-    CGFloat k;
-    CGFloat stepSize;
-    NSUInteger numberOfSteps;
+    //CGFloat l;
+    //CGFloat k;
+    //CGFloat stepSize;
+    //NSUInteger numberOfSteps;
+    UIView *overWriteView;
+    CGFloat lastL,lastK;
 }
+@property (nonatomic) BOOL overWrite;
 
+
+@property (nonatomic) CGFloat l;
+@property (nonatomic) CGFloat k;
+@property (nonatomic) CGFloat stepSize;
+@property (nonatomic) NSUInteger numberOfSteps;
 
 
 
@@ -23,3 +31,4 @@
 
 
 @end
+

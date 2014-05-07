@@ -21,6 +21,22 @@
 		913C02671912E4E400366753 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913C02491912E4E300366753 /* UIKit.framework */; };
 		913C026F1912E4E400366753 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 913C026D1912E4E400366753 /* InfoPlist.strings */; };
 		913C02711912E4E400366753 /* TabbarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 913C02701912E4E400366753 /* TabbarControllerTests.m */; };
+		913C02871912E53600366753 /* muhback.png in Resources */ = {isa = PBXBuildFile; fileRef = 913C02801912E53600366753 /* muhback.png */; };
+		913C02A01912F04B00366753 /* SpirographView.m in Sources */ = {isa = PBXBuildFile; fileRef = 913C029D1912F04B00366753 /* SpirographView.m */; };
+		913C02A11912F04B00366753 /* SpirographViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 913C029F1912F04B00366753 /* SpirographViewController.m */; };
+		913C02A5191303F900366753 /* etch.png in Resources */ = {isa = PBXBuildFile; fileRef = 913C02A4191303F900366753 /* etch.png */; };
+		913C02A8191304BB00366753 /* ESView.m in Sources */ = {isa = PBXBuildFile; fileRef = 913C02A7191304BB00366753 /* ESView.m */; };
+		913C02AB191304E600366753 /* Quiz8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 913C02AA191304E600366753 /* Quiz8ViewController.m */; };
+		915E5EAA191AC0CA00A5B7A1 /* spirotabbaritem copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 915E5EA9191AC0CA00A5B7A1 /* spirotabbaritem copy.png */; };
+		915E5EAC191AC0D300A5B7A1 /* etchtabbaritem copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 915E5EAB191AC0D300A5B7A1 /* etchtabbaritem copy.png */; };
+		915E5EAE191AC0D800A5B7A1 /* cardtabbaritem copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 915E5EAD191AC0D800A5B7A1 /* cardtabbaritem copy.png */; };
+		915E5EFC191AC28600A5B7A1 /* myViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 915E5EFB191AC28600A5B7A1 /* myViewController.m */; };
+		915E5EFE191AC5BA00A5B7A1 /* test1BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 915E5EFD191AC5BA00A5B7A1 /* test1BViewController.m */; };
+		915E5F0B191AC5D900A5B7A1 /* card.m in Sources */ = {isa = PBXBuildFile; fileRef = 915E5F01191AC5D900A5B7A1 /* card.m */; };
+		915E5F0C191AC5D900A5B7A1 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 915E5F03191AC5D900A5B7A1 /* Deck.m */; };
+		915E5F0D191AC5D900A5B7A1 /* playingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 915E5F05191AC5D900A5B7A1 /* playingCard.m */; };
+		915E5F0E191AC5D900A5B7A1 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 915E5F07191AC5D900A5B7A1 /* PlayingCardDeck.m */; };
+		915E5F0F191AC5D900A5B7A1 /* PlayingCardGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 915E5F09191AC5D900A5B7A1 /* PlayingCardGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +50,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		913C02421912E4E300366753 /* TabbarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		913C02421912E4E300366753 /* FinalExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		913C02451912E4E300366753 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		913C02471912E4E300366753 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		913C02491912E4E300366753 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		913C024D1912E4E300366753 /* TabbarController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabbarController-Info.plist"; sourceTree = "<group>"; };
+		913C024D1912E4E300366753 /* FinalExam-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinalExam-Info.plist"; sourceTree = "<group>"; };
 		913C024F1912E4E300366753 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		913C02511912E4E300366753 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		913C02531912E4E300366753 /* TabbarController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabbarController-Prefix.pch"; sourceTree = "<group>"; };
+		913C02531912E4E300366753 /* FinalExam-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinalExam-Prefix.pch"; sourceTree = "<group>"; };
 		913C02541912E4E300366753 /* TabBarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarAppDelegate.h; sourceTree = "<group>"; };
 		913C02551912E4E300366753 /* TabBarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarAppDelegate.m; sourceTree = "<group>"; };
 		913C02581912E4E300366753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		913C025A1912E4E300366753 /* TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
 		913C025B1912E4E300366753 /* TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		913C025D1912E4E300366753 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		913C02631912E4E400366753 /* TabbarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabbarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		913C02631912E4E400366753 /* FinalExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalExamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		913C02641912E4E400366753 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		913C026C1912E4E400366753 /* TabbarControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabbarControllerTests-Info.plist"; sourceTree = "<group>"; };
+		913C026C1912E4E400366753 /* FinalExamTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinalExamTests-Info.plist"; sourceTree = "<group>"; };
 		913C026E1912E4E400366753 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		913C02701912E4E400366753 /* TabbarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbarControllerTests.m; sourceTree = "<group>"; };
+		913C02801912E53600366753 /* muhback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muhback.png; sourceTree = "<group>"; };
+		913C029C1912F04B00366753 /* SpirographView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpirographView.h; sourceTree = "<group>"; };
+		913C029D1912F04B00366753 /* SpirographView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpirographView.m; sourceTree = "<group>"; };
+		913C029E1912F04B00366753 /* SpirographViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpirographViewController.h; sourceTree = "<group>"; };
+		913C029F1912F04B00366753 /* SpirographViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpirographViewController.m; sourceTree = "<group>"; };
+		913C02A4191303F900366753 /* etch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = etch.png; sourceTree = "<group>"; };
+		913C02A6191304BB00366753 /* ESView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESView.h; sourceTree = "<group>"; };
+		913C02A7191304BB00366753 /* ESView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESView.m; sourceTree = "<group>"; };
+		913C02A9191304E600366753 /* Quiz8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz8ViewController.h; sourceTree = "<group>"; };
+		913C02AA191304E600366753 /* Quiz8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz8ViewController.m; sourceTree = "<group>"; };
+		915E5EA9191AC0CA00A5B7A1 /* spirotabbaritem copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spirotabbaritem copy.png"; sourceTree = "<group>"; };
+		915E5EAB191AC0D300A5B7A1 /* etchtabbaritem copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "etchtabbaritem copy.png"; sourceTree = "<group>"; };
+		915E5EAD191AC0D800A5B7A1 /* cardtabbaritem copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cardtabbaritem copy.png"; sourceTree = "<group>"; };
+		915E5EFA191AC28600A5B7A1 /* myViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myViewController.h; sourceTree = "<group>"; };
+		915E5EFB191AC28600A5B7A1 /* myViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myViewController.m; sourceTree = "<group>"; };
+		915E5EFD191AC5BA00A5B7A1 /* test1BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test1BViewController.m; sourceTree = "<group>"; };
+		915E5EFF191AC5C000A5B7A1 /* test1BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test1BViewController.h; sourceTree = "<group>"; };
+		915E5F00191AC5D900A5B7A1 /* card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = card.h; sourceTree = "<group>"; };
+		915E5F01191AC5D900A5B7A1 /* card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = card.m; sourceTree = "<group>"; };
+		915E5F02191AC5D900A5B7A1 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		915E5F03191AC5D900A5B7A1 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		915E5F04191AC5D900A5B7A1 /* playingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playingCard.h; sourceTree = "<group>"; };
+		915E5F05191AC5D900A5B7A1 /* playingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playingCard.m; sourceTree = "<group>"; };
+		915E5F06191AC5D900A5B7A1 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		915E5F07191AC5D900A5B7A1 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		915E5F08191AC5D900A5B7A1 /* PlayingCardGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardGame.h; sourceTree = "<group>"; };
+		915E5F09191AC5D900A5B7A1 /* PlayingCardGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardGame.m; sourceTree = "<group>"; };
+		915E5F0A191AC5D900A5B7A1 /* test1BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test1BViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +126,9 @@
 		913C02391912E4E300366753 = {
 			isa = PBXGroup;
 			children = (
+				915E5EA9191AC0CA00A5B7A1 /* spirotabbaritem copy.png */,
+				915E5EAB191AC0D300A5B7A1 /* etchtabbaritem copy.png */,
+				915E5EAD191AC0D800A5B7A1 /* cardtabbaritem copy.png */,
 				913C024B1912E4E300366753 /* TabbarController */,
 				913C026A1912E4E400366753 /* TabbarControllerTests */,
 				913C02441912E4E300366753 /* Frameworks */,
@@ -92,8 +139,8 @@
 		913C02431912E4E300366753 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				913C02421912E4E300366753 /* TabbarController.app */,
-				913C02631912E4E400366753 /* TabbarControllerTests.xctest */,
+				913C02421912E4E300366753 /* FinalExam.app */,
+				913C02631912E4E400366753 /* FinalExamTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +164,30 @@
 				913C02571912E4E300366753 /* Main.storyboard */,
 				913C025A1912E4E300366753 /* TabBarViewController.h */,
 				913C025B1912E4E300366753 /* TabBarViewController.m */,
+				913C02801912E53600366753 /* muhback.png */,
+				913C029C1912F04B00366753 /* SpirographView.h */,
+				913C029D1912F04B00366753 /* SpirographView.m */,
+				913C029E1912F04B00366753 /* SpirographViewController.h */,
+				913C029F1912F04B00366753 /* SpirographViewController.m */,
+				913C02A6191304BB00366753 /* ESView.h */,
+				913C02A7191304BB00366753 /* ESView.m */,
+				913C02A9191304E600366753 /* Quiz8ViewController.h */,
+				913C02AA191304E600366753 /* Quiz8ViewController.m */,
+				915E5EFD191AC5BA00A5B7A1 /* test1BViewController.m */,
+				915E5EFF191AC5C000A5B7A1 /* test1BViewController.h */,
+				915E5F00191AC5D900A5B7A1 /* card.h */,
+				915E5F01191AC5D900A5B7A1 /* card.m */,
+				915E5F02191AC5D900A5B7A1 /* Deck.h */,
+				915E5F03191AC5D900A5B7A1 /* Deck.m */,
+				915E5F04191AC5D900A5B7A1 /* playingCard.h */,
+				915E5F05191AC5D900A5B7A1 /* playingCard.m */,
+				915E5F06191AC5D900A5B7A1 /* PlayingCardDeck.h */,
+				915E5F07191AC5D900A5B7A1 /* PlayingCardDeck.m */,
+				915E5F08191AC5D900A5B7A1 /* PlayingCardGame.h */,
+				915E5F09191AC5D900A5B7A1 /* PlayingCardGame.m */,
+				915E5F0A191AC5D900A5B7A1 /* test1BViewController.h */,
+				915E5EFA191AC28600A5B7A1 /* myViewController.h */,
+				915E5EFB191AC28600A5B7A1 /* myViewController.m */,
 				913C025D1912E4E300366753 /* Images.xcassets */,
 				913C024C1912E4E300366753 /* Supporting Files */,
 			);
@@ -126,10 +197,11 @@
 		913C024C1912E4E300366753 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				913C024D1912E4E300366753 /* TabbarController-Info.plist */,
+				913C02A4191303F900366753 /* etch.png */,
+				913C024D1912E4E300366753 /* FinalExam-Info.plist */,
 				913C024E1912E4E300366753 /* InfoPlist.strings */,
 				913C02511912E4E300366753 /* main.m */,
-				913C02531912E4E300366753 /* TabbarController-Prefix.pch */,
+				913C02531912E4E300366753 /* FinalExam-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +218,7 @@
 		913C026B1912E4E400366753 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				913C026C1912E4E400366753 /* TabbarControllerTests-Info.plist */,
+				913C026C1912E4E400366753 /* FinalExamTests-Info.plist */,
 				913C026D1912E4E400366753 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +227,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		913C02411912E4E300366753 /* TabbarController */ = {
+		913C02411912E4E300366753 /* FinalExam */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 913C02741912E4E400366753 /* Build configuration list for PBXNativeTarget "TabbarController" */;
+			buildConfigurationList = 913C02741912E4E400366753 /* Build configuration list for PBXNativeTarget "FinalExam" */;
 			buildPhases = (
 				913C023E1912E4E300366753 /* Sources */,
 				913C023F1912E4E300366753 /* Frameworks */,
@@ -167,14 +239,14 @@
 			);
 			dependencies = (
 			);
-			name = TabbarController;
+			name = FinalExam;
 			productName = TabbarController;
-			productReference = 913C02421912E4E300366753 /* TabbarController.app */;
+			productReference = 913C02421912E4E300366753 /* FinalExam.app */;
 			productType = "com.apple.product-type.application";
 		};
-		913C02621912E4E400366753 /* TabbarControllerTests */ = {
+		913C02621912E4E400366753 /* FinalExamTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 913C02771912E4E400366753 /* Build configuration list for PBXNativeTarget "TabbarControllerTests" */;
+			buildConfigurationList = 913C02771912E4E400366753 /* Build configuration list for PBXNativeTarget "FinalExamTests" */;
 			buildPhases = (
 				913C025F1912E4E400366753 /* Sources */,
 				913C02601912E4E400366753 /* Frameworks */,
@@ -185,9 +257,9 @@
 			dependencies = (
 				913C02691912E4E400366753 /* PBXTargetDependency */,
 			);
-			name = TabbarControllerTests;
+			name = FinalExamTests;
 			productName = TabbarControllerTests;
-			productReference = 913C02631912E4E400366753 /* TabbarControllerTests.xctest */;
+			productReference = 913C02631912E4E400366753 /* FinalExamTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +277,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 913C023D1912E4E300366753 /* Build configuration list for PBXProject "TabbarController" */;
+			buildConfigurationList = 913C023D1912E4E300366753 /* Build configuration list for PBXProject "FinalExam" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +290,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				913C02411912E4E300366753 /* TabbarController */,
-				913C02621912E4E400366753 /* TabbarControllerTests */,
+				913C02411912E4E300366753 /* FinalExam */,
+				913C02621912E4E400366753 /* FinalExamTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,9 +301,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				915E5EAA191AC0CA00A5B7A1 /* spirotabbaritem copy.png in Resources */,
 				913C025E1912E4E300366753 /* Images.xcassets in Resources */,
+				915E5EAE191AC0D800A5B7A1 /* cardtabbaritem copy.png in Resources */,
+				915E5EAC191AC0D300A5B7A1 /* etchtabbaritem copy.png in Resources */,
+				913C02871912E53600366753 /* muhback.png in Resources */,
 				913C02501912E4E300366753 /* InfoPlist.strings in Resources */,
 				913C02591912E4E300366753 /* Main.storyboard in Resources */,
+				913C02A5191303F900366753 /* etch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +327,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				913C02A01912F04B00366753 /* SpirographView.m in Sources */,
+				913C02A8191304BB00366753 /* ESView.m in Sources */,
+				915E5F0D191AC5D900A5B7A1 /* playingCard.m in Sources */,
 				913C02561912E4E300366753 /* TabBarAppDelegate.m in Sources */,
+				915E5F0E191AC5D900A5B7A1 /* PlayingCardDeck.m in Sources */,
+				913C02A11912F04B00366753 /* SpirographViewController.m in Sources */,
+				915E5EFE191AC5BA00A5B7A1 /* test1BViewController.m in Sources */,
+				915E5F0B191AC5D900A5B7A1 /* card.m in Sources */,
+				915E5F0F191AC5D900A5B7A1 /* PlayingCardGame.m in Sources */,
+				913C02AB191304E600366753 /* Quiz8ViewController.m in Sources */,
+				915E5EFC191AC28600A5B7A1 /* myViewController.m in Sources */,
+				915E5F0C191AC5D900A5B7A1 /* Deck.m in Sources */,
 				913C025C1912E4E300366753 /* TabBarViewController.m in Sources */,
 				913C02521912E4E300366753 /* main.m in Sources */,
 			);
@@ -269,7 +357,7 @@
 /* Begin PBXTargetDependency section */
 		913C02691912E4E400366753 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 913C02411912E4E300366753 /* TabbarController */;
+			target = 913C02411912E4E300366753 /* FinalExam */;
 			targetProxy = 913C02681912E4E400366753 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -378,9 +466,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TabbarController/TabbarController-Prefix.pch";
-				INFOPLIST_FILE = "TabbarController/TabbarController-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TabbarController/FinalExam-Prefix.pch";
+				INFOPLIST_FILE = "TabbarController/FinalExam-Info.plist";
+				PRODUCT_NAME = FinalExam;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,9 +479,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TabbarController/TabbarController-Prefix.pch";
-				INFOPLIST_FILE = "TabbarController/TabbarController-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TabbarController/FinalExam-Prefix.pch";
+				INFOPLIST_FILE = "TabbarController/FinalExam-Info.plist";
+				PRODUCT_NAME = FinalExam;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -413,8 +501,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "TabbarControllerTests/TabbarControllerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TabbarControllerTests/FinalExamTests-Info.plist";
+				PRODUCT_NAME = FinalExamTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -431,8 +519,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TabbarController/TabbarController-Prefix.pch";
-				INFOPLIST_FILE = "TabbarControllerTests/TabbarControllerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TabbarControllerTests/FinalExamTests-Info.plist";
+				PRODUCT_NAME = FinalExamTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -441,7 +529,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		913C023D1912E4E300366753 /* Build configuration list for PBXProject "TabbarController" */ = {
+		913C023D1912E4E300366753 /* Build configuration list for PBXProject "FinalExam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				913C02721912E4E400366753 /* Debug */,
@@ -450,21 +538,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		913C02741912E4E400366753 /* Build configuration list for PBXNativeTarget "TabbarController" */ = {
+		913C02741912E4E400366753 /* Build configuration list for PBXNativeTarget "FinalExam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				913C02751912E4E400366753 /* Debug */,
 				913C02761912E4E400366753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		913C02771912E4E400366753 /* Build configuration list for PBXNativeTarget "TabbarControllerTests" */ = {
+		913C02771912E4E400366753 /* Build configuration list for PBXNativeTarget "FinalExamTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				913C02781912E4E400366753 /* Debug */,
 				913C02791912E4E400366753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

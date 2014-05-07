@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "913C02411912E4E300366753"
-               BuildableName = "TabbarController.app"
-               BlueprintName = "TabbarController"
-               ReferencedContainer = "container:TabbarController.xcodeproj">
+               BuildableName = "FinalExam.app"
+               BlueprintName = "FinalExam"
+               ReferencedContainer = "container:FinalExam.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "913C02621912E4E400366753"
-               BuildableName = "TabbarControllerTests.xctest"
-               BlueprintName = "TabbarControllerTests"
-               ReferencedContainer = "container:TabbarController.xcodeproj">
+               BuildableName = "FinalExamTests.xctest"
+               BlueprintName = "FinalExamTests"
+               ReferencedContainer = "container:FinalExam.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "913C02411912E4E300366753"
-            BuildableName = "TabbarController.app"
-            BlueprintName = "TabbarController"
-            ReferencedContainer = "container:TabbarController.xcodeproj">
+            BuildableName = "FinalExam.app"
+            BlueprintName = "FinalExam"
+            ReferencedContainer = "container:FinalExam.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "913C02411912E4E300366753"
-            BuildableName = "TabbarController.app"
-            BlueprintName = "TabbarController"
-            ReferencedContainer = "container:TabbarController.xcodeproj">
+            BuildableName = "FinalExam.app"
+            BlueprintName = "FinalExam"
+            ReferencedContainer = "container:FinalExam.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "913C02411912E4E300366753"
-            BuildableName = "TabbarController.app"
-            BlueprintName = "TabbarController"
-            ReferencedContainer = "container:TabbarController.xcodeproj">
+            BuildableName = "FinalExam.app"
+            BlueprintName = "FinalExam"
+            ReferencedContainer = "container:FinalExam.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

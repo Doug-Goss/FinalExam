@@ -68,7 +68,9 @@ int cardcount = 0;
             [sender setTitle:(currentcard.contents) forState:UIControlStateNormal];
             [sender setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
             NSString *score = [NSString stringWithFormat:@"%d", self.currentGame.score];
-            [_score setText:(@"score: %@", score)];
+            NSString *newlabel = [NSString stringWithFormat:@"%d", [score intValue]];
+            [_score setText:newlabel];
+ 
             
           
             
@@ -80,7 +82,8 @@ int cardcount = 0;
                     previouscard = currentcard;
                     [self.currentGame ChooseCardAtIndex:[sender tag]];
                     NSString *score = [NSString stringWithFormat:@"%d", self.currentGame.score];
-                    [_score setText:(@"score: %@", score)];
+                    NSString *newlabel = [NSString stringWithFormat:@"%d", [score intValue]];
+                    [_score setText:newlabel];
                     if(_currentGame.score>oldscore){
                         currentcard = nil;
                         previouscard = nil;
@@ -100,7 +103,8 @@ int cardcount = 0;
                     previoucard2 = currentcard;
                     [self.currentGame ChooseCardAtIndex:[sender tag]];
                     NSString *score = [NSString stringWithFormat:@"%d", self.currentGame.score];
-                    [_score setText:(@"score: %@", score)];
+                    NSString *newlabel = [NSString stringWithFormat:@"%d", [score intValue]];
+                    [_score setText:newlabel];
                     if(_currentGame.score>oldscore){
                         currentcard = nil;
                         previouscard = nil;
